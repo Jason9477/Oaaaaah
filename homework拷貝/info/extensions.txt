@@ -1,9 +1,0 @@
-todo_list
-picture
-currency
-covid
-weather
-guess
-xkcd
-reservoir
-user_info
