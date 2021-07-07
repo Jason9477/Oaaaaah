@@ -8,11 +8,11 @@ import os
 
 # Bot object、設定指令開頭
 bot = commands.Bot(command_prefix='$')
+token = os.getenv("ODQ4NDQ0NjU1MDQwNzI1MDEz.YLMtqQ.bGlL-_sXphITfCNFe38O9BHaIGg")
 
 # 從 token.txt 中讀取 token
 # 使用 os.path.join() 在不同作業系統會以 / 或是 \ 連接路徑
-with open(os.path.join("..", "info", "token.txt"), 'r') as f:
-    token = f.read().strip("\n")
+
 
 # 從 extensions.txt 中讀取現有功能，並加入那些功能
 with open(os.path.join("..", "info", "extensions.txt"), 'r') as f:
